@@ -6,7 +6,7 @@ import { FirstBlock } from "@/components/FirstBlock";
 import { Footer } from "@/components/Footer/";
 import { Header } from "@/components/Header";
 import { PaymentsMethods } from "@/components/PaymentsMethods";
-import { Testimonials } from "@/components/Testimonials";
+import { Testimonials } from "../components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -21,5 +21,5 @@ export default function Home() {
       <PaymentsMethods />
       <Footer />
     </>
-  )
+  );
 }
